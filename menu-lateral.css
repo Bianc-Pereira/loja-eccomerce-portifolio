@@ -1,0 +1,86 @@
+@import 'node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+/* Estilos para a sidebar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral-container {
+    /* width: 250px; */
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    height: 100%;
+    /* background-color: var(--color-white); */
+    padding-top: 20px;
+}
+
+.sections {
+    margin-bottom: 20px;
+}
+
+.section-bnt{
+    width: 50%;
+    background-color: transparent;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.section-bnt:hover {
+    color: var(--color-blue-logo);
+}
+
+
+
+.section-item {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.section-item a {
+    color: var(--color-black);
+    text-decoration: none;
+}
+
+.section-item a:hover {
+    /* color: #f1f1f1; */
+}
+
+.hidden {
+    display: none;
+}
+
+.material-icons {
+    /* font-family: 'Material Symbols Outlined', sans-serif; */
+}
+
+
+.section-categoria{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.section-categoria label{
+    margin: 0 10px;
+}
+.section-categoria-item{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.section-categoria-item:hover{
+    color:var(--color-blue-logo);
+    text-decoration: underline;
+    text-decoration-color: var(--color-text-black);
+}

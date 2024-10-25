@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    margin: 0%;
+    background-color: #ffff;
+    padding: 0;
+    
+}
+.container{
+    font-family: "Nunito", sans-serif;
+    
+}
+ul li a {
+    text-decoration: none;
+    padding: 0;           
+    margin: 0;   
+
+}
+
+li{
+    list-style-type: none; 
+}
+
+:root{
+    --color-grey:#fbfbfb;
+    --color-white:#ffffff;
+    --color-text-black:#000000;
+
+    --color-blue-logo: #09a2e0;
+    --color-secondary: #f6bb33;
+    --color-cinza: #403F3F;
+    --color-cinza-medio: #909090;
+    --color-cinza-claro: #E3E3E3;
+    --color-cinza-muito-claro: #F6F6F6;
+    --color-page-background: #FBFBFB;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+}
